@@ -9,5 +9,8 @@ ssmbotocredentialprovider.egg-info/SOURCES.txt
 ssmbotocredentialprovider.egg-info/dependency_links.txt
 ssmbotocredentialprovider.egg-info/requires.txt
 ssmbotocredentialprovider.egg-info/top_level.txt
+test/test_iotbotocredentialprovider.py
+test/test_iotbotocredentialprovider_aws.py
+test/test_iotbotocredentialprovider_fakemetadata.py
 test/test_ssmbotocredentialprovider.py
 test/test_ssmbotocredentialprovider_fakemetadata.py

@@ -62,7 +62,7 @@ class FakeMetadataCredentialProvider(object):
         self.credential_file = credential_file
         self.ssm_registration_file = ssm_registration_file
         self.credential_refresh_time = credential_refresh_time
-        
+
     @property
     def metadata(self):
         if not self._metadata:
@@ -84,7 +84,7 @@ class FakeMetadataCredentialProvider(object):
     @property
     def credentials(self):
         return self.get_credentials()
-    
+
     @property
     def metadata_credentials(self):
         return {
